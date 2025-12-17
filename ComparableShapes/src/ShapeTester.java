@@ -13,8 +13,8 @@ public class ShapeTester {
   public static void main(String[] args) {
     ArrayList<Shape> shapes = new ArrayList<Shape>();
     
-    shapes.add(rec1 = new Rectangle(5.0, 5.0));
-    shapes.add(rec2 = new Rectangle(7.0, 3.0));
+    shapes.add(new Rectangle(5.0, 5.0));
+    shapes.add(new Rectangle(7.0, 3.0));
     
     
     

@@ -16,6 +16,12 @@ public class ShapeTester {
     shapes.add(new Rectangle(5.0, 5.0));
     shapes.add(new Rectangle(7.0, 3.0));
     
+    for (Shape shape : shapes) {
+    	System.out.println(shape);
+    	System.out.printf("Area = %.4f", shape.getArea());
+    	System.out.print("Perimeter = " + shape.getPerimeter());
+    }
+    
     
     
   }
